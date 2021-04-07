@@ -17,11 +17,12 @@ const data: element = {
   const description: des = {
     key: "value",
   };
-
-writeFile('output.kml',kmlGenerator(data,description),(err:string,result:string)=>{
-         if(err){
-             console.log(err);
-             return;
-         }
-        console.log(result);
+export const createKmlFile = (data:element,description: des)=>{
+    writeFile('output.kml',kmlGenerator(data,description),(err:string,result:string)=>{
+        if(err){
+            console.log(err);
+            return;
+        }
+       console.log(result);
 })
+}

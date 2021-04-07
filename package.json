@@ -7,6 +7,10 @@
     "test": "jest",
     "build": "tsc"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarojThakur96/Kml-Generator"
+  },
   "keywords": [
     "kml",
     "nodeJs"
