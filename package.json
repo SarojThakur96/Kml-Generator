@@ -1,8 +1,9 @@
 {
   "name": "export2kml",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This library export KML file",
   "main": "index.js",
+  "type":"module",
   "scripts": {
     "test": "jest",
     "build": "tsc"

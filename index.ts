@@ -1,2 +1,2 @@
-export * from './kml'
-export * from './createKmlFile'
+export * from './kml';
+export * from './createKmlFile';
